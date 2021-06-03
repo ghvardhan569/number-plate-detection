@@ -1,0 +1,6 @@
+ECHO ON
+REM A batch script to execute a Python script
+SET PATH=%PATH%;C:\Python36
+python missingcar_3rd_round.py
+python clientalert.py
+PAUSE
